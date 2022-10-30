@@ -76,6 +76,7 @@
         android:insetBottom="0dp"
         android:textSize="18dp"
         android:text="+"
+        android:onClick="increment"
         android:textColor="@color/black" />
 
     <Button
@@ -89,8 +90,8 @@
         android:textSize="18dp"
         android:insetTop="0dp"
         android:insetBottom="0dp"
+        android:onClick="decrement"
         android:layout_below="@id/quantity_text_view"
-
         />
 
 
